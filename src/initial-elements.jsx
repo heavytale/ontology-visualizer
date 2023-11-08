@@ -83,10 +83,10 @@ export const nodes = [
       label: (
         <>
           <strong style={{fontSize: "1.2em"}}>🛠온톨로지 비주얼라이저⚒</strong> <br />
-          <small>절찬 개발 중🤗</small> <br />
-          <strong>스크롤</strong>해서 확대↑축소↓ <br />
-          노드에 <strong>우클릭</strong>해서 상세정보📃 <br />
-          <a><strong>KDS</strong></a> 클릭시 기준문서📖 하이퍼링크 <br />
+          <small>개발 중</small> <br />
+          <strong>스크롤</strong>: 확대 또는 축소 <br />
+          노드에 <strong>우클릭</strong>: 상세정보 보기 <br />
+          <a><strong>KDS</strong></a> 클릭: 기준문서 하이퍼링크 <br />
         </>
       ),
     },
