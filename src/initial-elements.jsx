@@ -168,19 +168,19 @@ export const nodes = [
       rulenum: '4.2.4.2.1',
       rulename: '설계-사용한계상태-처짐-직접 처짐 계산을 생략하는 경우-1',
       href: 'https://kcsc.re.kr/StandardCode/Viewer/40145',
-      desc: "▪ 유사수식 참조\n4.2.4.1.2\n▪ 표 참조\n표4.2-6"
+      desc: "▪ 유사수식 참조\n4.2.4.1.2"
     },
     parentNode: '(group)241421-4242',
     extent: 'parent' 
   },
-  {
-    id: '241421-table4.2-6',
-    type: 'output',
-    position: { x: 300, y: 900 },
-    data: {
-      label: "표4.2-6"
-    },
-  },
+  // {
+  //   id: '241421-table4.2-6',
+  //   type: 'output',
+  //   position: { x: 300, y: 900 },
+  //   data: {
+  //     label: "표4.2-6"
+  //   },
+  // },
   {
     id: '241421-42422',
     type: 'custom',
@@ -445,17 +445,17 @@ export const nodes = [
       rulenum: '4.3.4.1',
       rulename: '설계-피로한계상태-철근의 용접이음부 혹은 기계적 이음장치-1',
       href: 'https://kcsc.re.kr/StandardCode/Viewer/40145',
-      desc: "▪ 표 참조\n표4.3-1"
+      desc: "(참조 대상 없음)"
     },
   },
-  {
-    id: '241421-table4.3-1',
-    type: 'output',
-    position: { x: 1300, y: 500 },
-    data: {
-      label: "표4.3-1"
-    },
-  },
+  // {
+  //   id: '241421-table4.3-1',
+  //   type: 'output',
+  //   position: { x: 1300, y: 500 },
+  //   data: {
+  //     label: "표4.3-1"
+  //   },
+  // },
   {
     id: '241421-4342',
     type: 'custom',
@@ -515,7 +515,7 @@ export const nodes = [
       rulenum: '4.4.1.4',
       rulename: '설계-피로한계상태-내구성 및 피복두께-일반 사항-4',
       href: 'https://kcsc.re.kr/StandardCode/Viewer/40145',
-      desc: "▪ 중분류 참조\n4.2.3\n▪ 표 참조\n표4.4-1"
+      desc: "▪ 중분류 참조\n4.2.3"
     },
   },
   {
@@ -542,14 +542,14 @@ export const nodes = [
       desc: "(참조 대상 없음)\n<4.4 전체 예외 사항 정의>"
     },
   },
-  {
-    id: '241421-table4.4-1',
-    type: 'output',
-    position: { x: 1700, y: 700 },
-    data: {
-      label: "표4.4-1"
-    },
-  },
+  // {
+  //   id: '241421-table4.4-1',
+  //   type: 'output',
+  //   position: { x: 1700, y: 700 },
+  //   data: {
+  //     label: "표4.4-1"
+  //   },
+  // },
   // 피로한계상태-환경 조건-1
   {
     id: '241421-4421',
@@ -609,17 +609,17 @@ export const nodes = [
     className: 'light',
     style: { backgroundColor: 'rgba(229, 238, 254, 0.4)', width: 400, height: 300 },
   },
-  {
-    id: '241221-table4.1-1',
-    type: 'output',
-    position: { x: 50, y: 60 },
-    data: {
-      label: "표4.1-1",
-      desc: "KDS241221-표4.1-1"
-    },
-    parentNode: '(group)241221',
-    extent: 'parent' 
-  },
+  // {
+  //   id: '241221-table4.1-1',
+  //   type: 'output',
+  //   position: { x: 50, y: 60 },
+  //   data: {
+  //     label: "표4.1-1",
+  //     desc: "KDS241221-표4.1-1"
+  //   },
+  //   parentNode: '(group)241221',
+  //   extent: 'parent' 
+  // },
 ];
 
 // ===== Edges =====
@@ -658,14 +658,14 @@ export const edges = [
     type:'smoothstep',
     markerEnd: {type: MarkerType.ArrowClosed}, animated:true
   },
-  {
-    id: '241421-42421~241421-table4.2-6',
-    source: '241421-42421',
-    target: '241421-table4.2-6',
-    label: '표 참조',
-    type:'smoothstep',
-    markerEnd: {type: MarkerType.ArrowClosed}, animated:true
-  },
+  // {
+  //   id: '241421-42421~241421-table4.2-6',
+  //   source: '241421-42421',
+  //   target: '241421-table4.2-6',
+  //   label: '표 참조',
+  //   type:'smoothstep',
+  //   markerEnd: {type: MarkerType.ArrowClosed}, animated:true
+  // },
   {
     id: '241421-42422~241421-42421',
     source: '241421-42422',
@@ -789,14 +789,14 @@ export const edges = [
     type:'smoothstep',
     markerEnd: {type: MarkerType.ArrowClosed}, animated:true
   },
-  {
-    id: '241421-4341~241421-table4.3-1',
-    source: '241421-4341',
-    target: '241421-table4.3-1',
-    label: '표 참조',
-    type:'smoothstep',
-    markerEnd: {type: MarkerType.ArrowClosed}, animated:true
-  },
+  // {
+  //   id: '241421-4341~241421-table4.3-1',
+  //   source: '241421-4341',
+  //   target: '241421-table4.3-1',
+  //   label: '표 참조',
+  //   type:'smoothstep',
+  //   markerEnd: {type: MarkerType.ArrowClosed}, animated:true
+  // },
   {
     id: '241421-4342~241421-4321',
     source: '241421-4342',
@@ -847,14 +847,14 @@ export const edges = [
   //   type:'smoothstep',
   //   markerEnd: {type: MarkerType.ArrowClosed}, animated:true
   // },
-  {
-    id: '241421-4414~241421-table4.4-1',
-    source: '241421-4414',
-    target: '241421-table4.4-1',
-    label: '표 참조',
-    type:'smoothstep',
-    markerEnd: {type: MarkerType.ArrowClosed}, animated:true
-  },
+  // {
+  //   id: '241421-4414~241421-table4.4-1',
+  //   source: '241421-4414',
+  //   target: '241421-table4.4-1',
+  //   label: '표 참조',
+  //   type:'smoothstep',
+  //   markerEnd: {type: MarkerType.ArrowClosed}, animated:true
+  // },
   
 
   // { id: 'e1-3', source: '1', target: '3', animated: true },
