@@ -1,4 +1,4 @@
-import React, { useCallback, useRef, useState } from 'react';
+import React, { useCallback, useRef, useState, useEffect } from 'react';
 import ReactFlow, {
   addEdge,
   MiniMap,
@@ -8,7 +8,7 @@ import ReactFlow, {
   useEdgesState,
 } from 'reactflow';
 
-import { nodes as initialNodes, edges as initialEdges } from './initial-elements';
+import { nodesPromise, edges as initialEdges } from './initial-elements';
 import CustomNode from './CustomNode';
 import ContextMenu from './ContextMenu';
 
@@ -26,11 +26,17 @@ const minimapStyle = {
 const onInit = (reactFlowInstance) => console.log('flow loaded:', reactFlowInstance);
 
 const OverviewFlow = () => {
-  const [nodes, setNodes, onNodesChange] = useNodesState(initialNodes);
+  const [nodes, setNodes, onNodesChange] = useNodesState([]);
   const [edges, setEdges, onEdgesChange] = useEdgesState(initialEdges);
   const onConnect = useCallback((params) => setEdges((eds) => addEdge(params, eds)), []);
   const [menu, setMenu] = useState(null);
   const ref = useRef(null);
+
+  useEffect(() => {
+    nodesPromise.then(({ nodes }) => {
+      setNodes(nodes);
+    });
+  }, []);
 
   // we are using a bit of a shortcut here to adjust the edge type
   // this could also be done with a custom edge for example

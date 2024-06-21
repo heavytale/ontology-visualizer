@@ -1,7 +1,7 @@
 import React from 'react';
 import { MarkerType, Position } from 'reactflow';
 
-export const nodes = [
+export const nodes_old = [
   // {
   //   id: '1',
   //   type: 'input',
@@ -622,266 +622,205 @@ export const nodes = [
   // },
 ];
 
+export let nodes = [];
+
+// Function to load JSON data
+async function loadNodes() {
+  const response = await fetch('src/test_json.json'); // Replace with the correct path to your JSON file
+  nodes = await response.json();
+  return nodes;
+}
+
+// Load the nodes when the module is imported
+export const nodesPromise = loadNodes();
+
+
 // ===== Edges =====
 
 export const edges = [
-  // { id: 'e1-2', source: '1', target: '2', label: 'this is an edge label', type:'smoothstep', markerEnd: {type: MarkerType.ArrowClosed}, },
-  {
-    id: '241421-42414~(group)241421-4242',
-    source: '241421-42414',
-    target: '(group)241421-4242',
-    label: '소분류 참조',
-    type:'smoothstep',
-    markerEnd: {type: MarkerType.ArrowClosed}, animated:true
-  },
-  {
-    id: '241421-42414~(group)241421-4243',
-    source: '241421-42414',
-    target: '(group)241421-4243',
-    label: '소분류 참조',
-    type:'smoothstep',
-    markerEnd: {type: MarkerType.ArrowClosed}, animated:true
-  },
-  {
-    id: '241421-42421~241421-42412',
-    source: '241421-42421',
-    target: '241421-42412',
-    label: '유사수식 참조',
-    type:'smoothstep',
-    markerEnd: {type: MarkerType.ArrowClosed}, animated:true
-  },
-  {
-    id: '241421-42421~241421-42413',
-    source: '241421-42421',
-    target: '241421-42413',
-    label: '유사수식 참조',
-    type:'smoothstep',
-    markerEnd: {type: MarkerType.ArrowClosed}, animated:true
-  },
   // {
-  //   id: '241421-42421~241421-table4.2-6',
-  //   source: '241421-42421',
-  //   target: '241421-table4.2-6',
-  //   label: '표 참조',
+  //   id: '241421-42414~(group)241421-4242',
+  //   source: '241421-42414',
+  //   target: '(group)241421-4242',
+  //   label: '소분류 참조',
   //   type:'smoothstep',
   //   markerEnd: {type: MarkerType.ArrowClosed}, animated:true
   // },
-  {
-    id: '241421-42422~241421-42421',
-    source: '241421-42422',
-    target: '241421-42421',
-    label: '역참조(수식)',
-    type:'smoothstep',
-    markerEnd: {type: MarkerType.ArrowClosed}, animated:true
-  },
-  {
-    id: '241421-42422~241421-4243',
-    source: '241421-42422',
-    target: '241421-4243',
-    label: '구현 불필요 참조',
-    type:'smoothstep',
-    markerEnd: {type: MarkerType.ArrowClosed}, animated:true
-  },
-  {
-    id: '241421-42423~241421-42422',
-    source: '241421-42423',
-    target: '241421-42422',
-    label: '역참조(수식)',
-    type:'smoothstep',
-    markerEnd: {type: MarkerType.ArrowClosed}, animated:true
-  },
-  {
-    id: '241421-42424~241421-42422',
-    source: '241421-42424',
-    target: '241421-42422',
-    label: '역참조(수식)',
-    type:'smoothstep',
-    markerEnd: {type: MarkerType.ArrowClosed}, animated:true
-  },
-
-  // 소분류 참조 (구현예정정)
   // {
-  //   id: '241421-42431~241421-42422',
+  //   id: '241421-42414~(group)241421-4243',
+  //   source: '241421-42414',
+  //   target: '(group)241421-4243',
+  //   label: '소분류 참조',
+  //   type:'smoothstep',
+  //   markerEnd: {type: MarkerType.ArrowClosed}, animated:true
+  // },
+  // {
+  //   id: '241421-42421~241421-42412',
+  //   source: '241421-42421',
+  //   target: '241421-42412',
+  //   label: '유사수식 참조',
+  //   type:'smoothstep',
+  //   markerEnd: {type: MarkerType.ArrowClosed}, animated:true
+  // },
+  // {
+  //   id: '241421-42421~241421-42413',
+  //   source: '241421-42421',
+  //   target: '241421-42413',
+  //   label: '유사수식 참조',
+  //   type:'smoothstep',
+  //   markerEnd: {type: MarkerType.ArrowClosed}, animated:true
+  // },
+  // {
+  //   id: '241421-42422~241421-42421',
+  //   source: '241421-42422',
+  //   target: '241421-42421',
+  //   label: '역참조(수식)',
+  //   type:'smoothstep',
+  //   markerEnd: {type: MarkerType.ArrowClosed}, animated:true
+  // },
+  // {
+  //   id: '241421-42422~241421-4243',
+  //   source: '241421-42422',
+  //   target: '241421-4243',
+  //   label: '구현 불필요 참조',
+  //   type:'smoothstep',
+  //   markerEnd: {type: MarkerType.ArrowClosed}, animated:true
+  // },
+  // {
+  //   id: '241421-42423~241421-42422',
+  //   source: '241421-42423',
+  //   target: '241421-42422',
+  //   label: '역참조(수식)',
+  //   type:'smoothstep',
+  //   markerEnd: {type: MarkerType.ArrowClosed}, animated:true
+  // },
+  // {
+  //   id: '241421-42424~241421-42422',
   //   source: '241421-42424',
   //   target: '241421-42422',
   //   label: '역참조(수식)',
   //   type:'smoothstep',
   //   markerEnd: {type: MarkerType.ArrowClosed}, animated:true
   // },
-
-  // 외부 참조 (외부 전체 참조)
-  {
-    id: '241421-4313~241221',
-    source: '241421-4313',
-    target: '(group)241221',
-    label: '외부 참조',
-    type:'simplebezier',
-    markerEnd: {type: MarkerType.ArrowClosed}, animated:true
-  },
-
-  // 외부에 있는 표 참조
-  {
-    id: '241421-4313~241221-table4.1-1',
-    source: '241421-4313',
-    target: '241221-table4.1-1',
-    label: '외부 참조',
-    type:'simplebezier',
-    markerEnd: {type: MarkerType.ArrowClosed}, animated:true
-  },
-  {
-    id: '241421-4314~241221-table4.1-1',
-    source: '241421-4314',
-    target: '241221-table4.1-1',
-    label: '외부 참조',
-    type:'simplebezier',
-    markerEnd: {type: MarkerType.ArrowClosed}, animated:true
-  },
-
-  {
-    id: '241421-4415~(group)241421-432',
-    source: '241421-42414',
-    target: '(group)241421-432',
-    label: '소분류 참조',
-    type:'smoothstep',
-    markerEnd: {type: MarkerType.ArrowClosed}, animated:true
-  },
-
-  // 외부에 있는 표 참조
-  {
-    id: '241421-4321~241221-table4.1-1',
-    source: '241421-4321',
-    target: '241221-table4.1-1',
-    label: '외부 참조',
-    type:'simplebezier',
-    markerEnd: {type: MarkerType.ArrowClosed}, animated:true
-  },
-  {
-    id: '241421-4322~241221-table4.1-1',
-    source: '241421-4322',
-    target: '241221-table4.1-1',
-    label: '외부 참조',
-    type:'simplebezier',
-    markerEnd: {type: MarkerType.ArrowClosed}, animated:true
-  },
-
-  {
-    id: '241421-4323~241421-4321',
-    source: '241421-4323',
-    target: '241421-4321',
-    label: '역참조(유사수식)',
-    type:'smoothstep',
-    markerEnd: {type: MarkerType.ArrowClosed}, animated:true
-  },
-  {
-    id: '241421-4323~241421-4322',
-    source: '241421-4323',
-    target: '241421-4322',
-    label: '역참조(유사수식)',
-    type:'smoothstep',
-    markerEnd: {type: MarkerType.ArrowClosed}, animated:true
-  },
-
-  {
-    id: '241421-4332~241421-4331',
-    source: '241421-4332',
-    target: '241421-4331',
-    label: '역참조(유사수식)',
-    type:'smoothstep',
-    markerEnd: {type: MarkerType.ArrowClosed}, animated:true
-  },
+  // // 외부 참조 (외부 전체 참조)
   // {
-  //   id: '241421-4341~241421-table4.3-1',
-  //   source: '241421-4341',
-  //   target: '241421-table4.3-1',
-  //   label: '표 참조',
+  //   id: '241421-4313~241221',
+  //   source: '241421-4313',
+  //   target: '(group)241221',
+  //   label: '외부 참조',
+  //   type:'simplebezier',
+  //   markerEnd: {type: MarkerType.ArrowClosed}, animated:true
+  // },
+
+  // // 외부에 있는 표 참조
+  // {
+  //   id: '241421-4313~241221-table4.1-1',
+  //   source: '241421-4313',
+  //   target: '241221-table4.1-1',
+  //   label: '외부 참조',
+  //   type:'simplebezier',
+  //   markerEnd: {type: MarkerType.ArrowClosed}, animated:true
+  // },
+  // {
+  //   id: '241421-4314~241221-table4.1-1',
+  //   source: '241421-4314',
+  //   target: '241221-table4.1-1',
+  //   label: '외부 참조',
+  //   type:'simplebezier',
+  //   markerEnd: {type: MarkerType.ArrowClosed}, animated:true
+  // },
+
+  // {
+  //   id: '241421-4415~(group)241421-432',
+  //   source: '241421-42414',
+  //   target: '(group)241421-432',
+  //   label: '소분류 참조',
   //   type:'smoothstep',
   //   markerEnd: {type: MarkerType.ArrowClosed}, animated:true
   // },
-  {
-    id: '241421-4342~241421-4321',
-    source: '241421-4342',
-    target: '241421-4321',
-    label: '수식 참조',
-    type:'smoothstep',
-    markerEnd: {type: MarkerType.ArrowClosed}, animated:true
-  },
-  {
-    id: '241421-4342~241421-4322',
-    source: '241421-4342',
-    target: '241421-4322',
-    label: '수식 참조',
-    type:'smoothstep',
-    markerEnd: {type: MarkerType.ArrowClosed}, animated:true
-  },
 
-  {
-    id: '241421-4413~241421-442',
-    source: '241421-4413',
-    target: '241421-442',
-    label: '구현 불필요 참조',
-    type:'smoothstep',
-    markerEnd: {type: MarkerType.ArrowClosed}, animated:true
-  },
-  {
-    id: '241421-4413~241421-3123',
-    source: '241421-4413',
-    target: '241421-3123',
-    label: '구현 불필요 참조',
-    type:'smoothstep',
-    markerEnd: {type: MarkerType.ArrowClosed}, animated:true
-  },
-  {
-    id: '241421-4413~241421-3124',
-    source: '241421-4413',
-    target: '241421-3124',
-    label: '구현 불필요 참조',
-    type:'smoothstep',
-    markerEnd: {type: MarkerType.ArrowClosed}, animated:true
-  },
-  // 중분류 참조 구현해야 함! (Group 노드만 잘 넣으면 될 듯)
+  // // 외부에 있는 표 참조
   // {
-  //   id: '241421-4414~241421-423',
+  //   id: '241421-4321~241221-table4.1-1',
+  //   source: '241421-4321',
+  //   target: '241221-table4.1-1',
+  //   label: '외부 참조',
+  //   type:'simplebezier',
+  //   markerEnd: {type: MarkerType.ArrowClosed}, animated:true
+  // },
+  // {
+  //   id: '241421-4322~241221-table4.1-1',
+  //   source: '241421-4322',
+  //   target: '241221-table4.1-1',
+  //   label: '외부 참조',
+  //   type:'simplebezier',
+  //   markerEnd: {type: MarkerType.ArrowClosed}, animated:true
+  // },
+
+  // {
+  //   id: '241421-4323~241421-4321',
+  //   source: '241421-4323',
+  //   target: '241421-4321',
+  //   label: '역참조(유사수식)',
+  //   type:'smoothstep',
+  //   markerEnd: {type: MarkerType.ArrowClosed}, animated:true
+  // },
+  // {
+  //   id: '241421-4323~241421-4322',
+  //   source: '241421-4323',
+  //   target: '241421-4322',
+  //   label: '역참조(유사수식)',
+  //   type:'smoothstep',
+  //   markerEnd: {type: MarkerType.ArrowClosed}, animated:true
+  // },
+
+  // {
+  //   id: '241421-4332~241421-4331',
+  //   source: '241421-4332',
+  //   target: '241421-4331',
+  //   label: '역참조(유사수식)',
+  //   type:'smoothstep',
+  //   markerEnd: {type: MarkerType.ArrowClosed}, animated:true
+  // },
+  // {
+  //   id: '241421-4342~241421-4321',
   //   source: '241421-4342',
-  //   target: '241421-423',
-  //   label: '중분류 참조',
+  //   target: '241421-4321',
+  //   label: '수식 참조',
   //   type:'smoothstep',
   //   markerEnd: {type: MarkerType.ArrowClosed}, animated:true
   // },
   // {
-  //   id: '241421-4414~241421-table4.4-1',
-  //   source: '241421-4414',
-  //   target: '241421-table4.4-1',
-  //   label: '표 참조',
+  //   id: '241421-4342~241421-4322',
+  //   source: '241421-4342',
+  //   target: '241421-4322',
+  //   label: '수식 참조',
   //   type:'smoothstep',
   //   markerEnd: {type: MarkerType.ArrowClosed}, animated:true
   // },
-  
 
-  // { id: 'e1-3', source: '1', target: '3', animated: true },
   // {
-  //   id: 'e4-5',
-  //   source: '4',
-  //   target: '5',
-  //   type: 'smoothstep',
-  //   sourceHandle: 'handle-0',
-  //   data: {
-  //     selectIndex: 0,
-  //   },
-  //   markerEnd: {
-  //     type: MarkerType.ArrowClosed,
-  //   },
+  //   id: '241421-4413~241421-442',
+  //   source: '241421-4413',
+  //   target: '241421-442',
+  //   label: '구현 불필요 참조',
+  //   type:'smoothstep',
+  //   markerEnd: {type: MarkerType.ArrowClosed}, animated:true
   // },
   // {
-  //   id: 'e4-6',
-  //   source: '4',
-  //   target: '6',
-  //   type: 'smoothstep',
-  //   sourceHandle: 'handle-1',
-  //   data: {
-  //     selectIndex: 1,
-  //   },
-  //   markerEnd: {
-  //     type: MarkerType.ArrowClosed,
-  //   },
+  //   id: '241421-4413~241421-3123',
+  //   source: '241421-4413',
+  //   target: '241421-3123',
+  //   label: '구현 불필요 참조',
+  //   type:'smoothstep',
+  //   markerEnd: {type: MarkerType.ArrowClosed}, animated:true
   // },
+  // {
+  //   id: '241421-4413~241421-3124',
+  //   source: '241421-4413',
+  //   target: '241421-3124',
+  //   label: '구현 불필요 참조',
+  //   type:'smoothstep',
+  //   markerEnd: {type: MarkerType.ArrowClosed}, animated:true
+  // }
 ];
