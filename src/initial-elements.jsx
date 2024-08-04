@@ -1,17 +1,8 @@
-import nodes_data from './test_json.json';
-import edges_data from './test_edges.json'
-
-// Function to load JSON data
-// function loadNodes() {
-//   console.log(data)
-//   return data;
-// };
-
-// // Load the nodes when the module is imported
-// export const nodesPromise = loadNodes();
+import nodes_data from './nodes_data.json';
+import edges_data from './edges_data.json'
 
 export const nodes = nodes_data;
-console.log(nodes);
+// console.log(nodes);
 
 // ===== Edges =====
 
