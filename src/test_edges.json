@@ -1,0 +1,2562 @@
+[
+    {
+      "id": "KDS142024-4.2.1_1(R) => KDS142024-4.2.2",
+      "source": "KDS142024-4.2.1_1(R)",
+      "target": "KDS142024-4.2.2",
+      "label": "범위 참조",
+      "type": "smoothstep",
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#FF708D"
+      },
+      "animated": true,
+      "style": {
+        "strokeWidth": 3,
+        "stroke": "#FF708D"
+      }
+    },
+    {
+      "id": "KDS142024-4.4.3_1(R) => KDS142024-4.4.3_2(R)",
+      "source": "KDS142024-4.4.3_1(R)",
+      "target": "KDS142024-4.4.3_2(R)",
+      "label": "범위 참조",
+      "type": "smoothstep",
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#FF708D"
+      },
+      "animated": true,
+      "style": {
+        "strokeWidth": 3,
+        "stroke": "#FF708D"
+      }
+    },
+    {
+      "id": "KDS142024-4.4.3_2(R) => KDS142024-4.4.3_1(R)",
+      "source": "KDS142024-4.4.3_2(R)",
+      "target": "KDS142024-4.4.3_1(R)",
+      "label": "역참조(수식)",
+      "type": "smoothstep",
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#FF708D"
+      },
+      "animated": true,
+      "style": {
+        "strokeWidth": 3,
+        "stroke": "#FF708D"
+      }
+    },
+    {
+      "id": "KDS143110-4.1.2.3 => KDS143110-4.4.1.2",
+      "source": "KDS143110-4.1.2.3",
+      "target": "KDS143110-4.4.1.2",
+      "label": "범위 참조",
+      "type": "smoothstep",
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#FF708D"
+      },
+      "animated": true,
+      "style": {
+        "strokeWidth": 3,
+        "stroke": "#FF708D"
+      }
+    },
+    {
+      "id": "KDS143110-4.1.2.3 => KDS143110-4.4.2",
+      "source": "KDS143110-4.1.2.3",
+      "target": "KDS143110-4.4.2",
+      "label": "범위 참조",
+      "type": "smoothstep",
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#FF708D"
+      },
+      "animated": true,
+      "style": {
+        "strokeWidth": 3,
+        "stroke": "#FF708D"
+      }
+    },
+    {
+      "id": "KDS143110-4.1.3_1(R) => KDS143110-4.1.3.1",
+      "source": "KDS143110-4.1.3_1(R)",
+      "target": "KDS143110-4.1.3.1",
+      "label": "수식 참조",
+      "type": "smoothstep",
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#FF708D"
+      },
+      "animated": true,
+      "style": {
+        "strokeWidth": 3,
+        "stroke": "#FF708D"
+      }
+    },
+    {
+      "id": "KDS143110-4.1.3_1(R) => KDS143110-4.1.3.2",
+      "source": "KDS143110-4.1.3_1(R)",
+      "target": "KDS143110-4.1.3.2",
+      "label": "수식 참조",
+      "type": "smoothstep",
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#FF708D"
+      },
+      "animated": true,
+      "style": {
+        "strokeWidth": 3,
+        "stroke": "#FF708D"
+      }
+    },
+    {
+      "id": "KDS143110-4.1.3.2_1(R) => KDS143110-4.1.2.3",
+      "source": "KDS143110-4.1.3.2_1(R)",
+      "target": "KDS143110-4.1.2.3",
+      "label": "범위 참조",
+      "type": "smoothstep",
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#FF708D"
+      },
+      "animated": true,
+      "style": {
+        "strokeWidth": 3,
+        "stroke": "#FF708D"
+      }
+    },
+    {
+      "id": "KDS143110-4.1.6.1 => KDS143110-4.1.3",
+      "source": "KDS143110-4.1.6.1",
+      "target": "KDS143110-4.1.3",
+      "label": "범위 참조",
+      "type": "smoothstep",
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#FF708D"
+      },
+      "animated": true,
+      "style": {
+        "strokeWidth": 3,
+        "stroke": "#FF708D"
+      }
+    },
+    {
+      "id": "KDS143110-4.2.3 => KDS143110-4.2.4",
+      "source": "KDS143110-4.2.3",
+      "target": "KDS143110-4.2.4",
+      "label": "범위 참조",
+      "type": "smoothstep",
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#FF708D"
+      },
+      "animated": true,
+      "style": {
+        "strokeWidth": 3,
+        "stroke": "#FF708D"
+      }
+    },
+    {
+      "id": "KDS143110-4.2.4_1(R) => KDS143110-4.2.3",
+      "source": "KDS143110-4.2.4_1(R)",
+      "target": "KDS143110-4.2.3",
+      "label": "수식 참조",
+      "type": "smoothstep",
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#FF708D"
+      },
+      "animated": true,
+      "style": {
+        "strokeWidth": 3,
+        "stroke": "#FF708D"
+      }
+    },
+    {
+      "id": "KDS143110-4.2.4_1(R) => KDS143110-4.2.6",
+      "source": "KDS143110-4.2.4_1(R)",
+      "target": "KDS143110-4.2.6",
+      "label": "범위 참조",
+      "type": "smoothstep",
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#FF708D"
+      },
+      "animated": true,
+      "style": {
+        "strokeWidth": 3,
+        "stroke": "#FF708D"
+      }
+    },
+    {
+      "id": "KDS143110-4.2.6.1_1(R) => KDS143110-4.2.3",
+      "source": "KDS143110-4.2.6.1_1(R)",
+      "target": "KDS143110-4.2.3",
+      "label": "범위 참조",
+      "type": "smoothstep",
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#FF708D"
+      },
+      "animated": true,
+      "style": {
+        "strokeWidth": 3,
+        "stroke": "#FF708D"
+      }
+    },
+    {
+      "id": "KDS143110-4.2.6.1_1(R) => KDS143110-4.2.4",
+      "source": "KDS143110-4.2.6.1_1(R)",
+      "target": "KDS143110-4.2.4",
+      "label": "범위 참조",
+      "type": "smoothstep",
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#FF708D"
+      },
+      "animated": true,
+      "style": {
+        "strokeWidth": 3,
+        "stroke": "#FF708D"
+      }
+    },
+    {
+      "id": "KDS143110-4.2.6.1_1(R) => KDS143110-4.2.7",
+      "source": "KDS143110-4.2.6.1_1(R)",
+      "target": "KDS143110-4.2.7",
+      "label": "범위 참조",
+      "type": "smoothstep",
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#FF708D"
+      },
+      "animated": true,
+      "style": {
+        "strokeWidth": 3,
+        "stroke": "#FF708D"
+      }
+    },
+    {
+      "id": "KDS143110-4.2.6.1_2(R) => KDS143110-4.2.3",
+      "source": "KDS143110-4.2.6.1_2(R)",
+      "target": "KDS143110-4.2.3",
+      "label": "범위 참조",
+      "type": "smoothstep",
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#FF708D"
+      },
+      "animated": true,
+      "style": {
+        "strokeWidth": 3,
+        "stroke": "#FF708D"
+      }
+    },
+    {
+      "id": "KDS143110-4.2.6.1_2(R) => KDS143110-4.2.4",
+      "source": "KDS143110-4.2.6.1_2(R)",
+      "target": "KDS143110-4.2.4",
+      "label": "범위 참조",
+      "type": "smoothstep",
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#FF708D"
+      },
+      "animated": true,
+      "style": {
+        "strokeWidth": 3,
+        "stroke": "#FF708D"
+      }
+    },
+    {
+      "id": "KDS143110-4.2.6.1_2(R) => KDS143110-4.2.7",
+      "source": "KDS143110-4.2.6.1_2(R)",
+      "target": "KDS143110-4.2.7",
+      "label": "범위 참조",
+      "type": "smoothstep",
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#FF708D"
+      },
+      "animated": true,
+      "style": {
+        "strokeWidth": 3,
+        "stroke": "#FF708D"
+      }
+    },
+    {
+      "id": "KDS143110-4.2.6.2_3(R) => KDS143110-4.2.1.1",
+      "source": "KDS143110-4.2.6.2_3(R)",
+      "target": "KDS143110-4.2.1.1",
+      "label": "범위 참조",
+      "type": "smoothstep",
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#FF708D"
+      },
+      "animated": true,
+      "style": {
+        "strokeWidth": 3,
+        "stroke": "#FF708D"
+      }
+    },
+    {
+      "id": "KDS143110-4.2.7 => KDS143110-4.2.1.1",
+      "source": "KDS143110-4.2.7",
+      "target": "KDS143110-4.2.1.1",
+      "label": "범위 참조",
+      "type": "smoothstep",
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#FF708D"
+      },
+      "animated": true,
+      "style": {
+        "strokeWidth": 3,
+        "stroke": "#FF708D"
+      }
+    },
+    {
+      "id": "KDS143110-4.2.7_1(R) => KDS143110-4.2.1.1",
+      "source": "KDS143110-4.2.7_1(R)",
+      "target": "KDS143110-4.2.1.1",
+      "label": "범위 참조",
+      "type": "smoothstep",
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#FF708D"
+      },
+      "animated": true,
+      "style": {
+        "strokeWidth": 3,
+        "stroke": "#FF708D"
+      }
+    },
+    {
+      "id": "KDS143110-4.2.7_2(R) => KDS143110-4.2.3",
+      "source": "KDS143110-4.2.7_2(R)",
+      "target": "KDS143110-4.2.3",
+      "label": "수식 참조",
+      "type": "smoothstep",
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#FF708D"
+      },
+      "animated": true,
+      "style": {
+        "strokeWidth": 3,
+        "stroke": "#FF708D"
+      }
+    },
+    {
+      "id": "KDS143110-4.2.7_2(R) => KDS143110-4.2.4_1(R)",
+      "source": "KDS143110-4.2.7_2(R)",
+      "target": "KDS143110-4.2.4_1(R)",
+      "label": "수식 참조",
+      "type": "smoothstep",
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#FF708D"
+      },
+      "animated": true,
+      "style": {
+        "strokeWidth": 3,
+        "stroke": "#FF708D"
+      }
+    },
+    {
+      "id": "KDS143110-4.2.7_2(R) => KDS143110-4.2.1.1",
+      "source": "KDS143110-4.2.7_2(R)",
+      "target": "KDS143110-4.2.1.1",
+      "label": "범위 참조",
+      "type": "smoothstep",
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#FF708D"
+      },
+      "animated": true,
+      "style": {
+        "strokeWidth": 3,
+        "stroke": "#FF708D"
+      }
+    },
+    {
+      "id": "KDS143110-4.2.8.1.3_2(R) => KDS143110-4.2.8.2",
+      "source": "KDS143110-4.2.8.1.3_2(R)",
+      "target": "KDS143110-4.2.8.2",
+      "label": "범위 참조",
+      "type": "smoothstep",
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#FF708D"
+      },
+      "animated": true,
+      "style": {
+        "strokeWidth": 3,
+        "stroke": "#FF708D"
+      }
+    },
+    {
+      "id": "KDS143110-4.2.8.1.3_3(R) => KDS143110-4.2.8.2.1.2",
+      "source": "KDS143110-4.2.8.1.3_3(R)",
+      "target": "KDS143110-4.2.8.2.1.2",
+      "label": "범위 참조",
+      "type": "smoothstep",
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#FF708D"
+      },
+      "animated": true,
+      "style": {
+        "strokeWidth": 3,
+        "stroke": "#FF708D"
+      }
+    },
+    {
+      "id": "KDS143110-4.2.8.2.1.2 => KDS143110-4.2.8.2.2.2",
+      "source": "KDS143110-4.2.8.2.1.2",
+      "target": "KDS143110-4.2.8.2.2.2",
+      "label": "수식 참조",
+      "type": "smoothstep",
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#FF708D"
+      },
+      "animated": true,
+      "style": {
+        "strokeWidth": 3,
+        "stroke": "#FF708D"
+      }
+    },
+    {
+      "id": "KDS143110-4.2.8.2.2.1 => KDS143110-4.2.8.1.4",
+      "source": "KDS143110-4.2.8.2.2.1",
+      "target": "KDS143110-4.2.8.1.4",
+      "label": "범위 참조",
+      "type": "smoothstep",
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#FF708D"
+      },
+      "animated": true,
+      "style": {
+        "strokeWidth": 3,
+        "stroke": "#FF708D"
+      }
+    },
+    {
+      "id": "KDS143110-4.2.8.2.2.2_1(R) => KDS143110-4.2.8.2.1.2",
+      "source": "KDS143110-4.2.8.2.2.2_1(R)",
+      "target": "KDS143110-4.2.8.2.1.2",
+      "label": "범위 참조",
+      "type": "smoothstep",
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#FF708D"
+      },
+      "animated": true,
+      "style": {
+        "strokeWidth": 3,
+        "stroke": "#FF708D"
+      }
+    },
+    {
+      "id": "KDS143110-4.2.8.2.2.2_2(R) => KDS143110-4.2.8.2.1.2",
+      "source": "KDS143110-4.2.8.2.2.2_2(R)",
+      "target": "KDS143110-4.2.8.2.1.2",
+      "label": "범위 참조",
+      "type": "smoothstep",
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#FF708D"
+      },
+      "animated": true,
+      "style": {
+        "strokeWidth": 3,
+        "stroke": "#FF708D"
+      }
+    },
+    {
+      "id": "KDS143110-4.2.8.2.2.2_2(R) => KDS143110-4.2.8.2.2.2_1(R)",
+      "source": "KDS143110-4.2.8.2.2.2_2(R)",
+      "target": "KDS143110-4.2.8.2.2.2_1(R)",
+      "label": "수식 참조",
+      "type": "smoothstep",
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#FF708D"
+      },
+      "animated": true,
+      "style": {
+        "strokeWidth": 3,
+        "stroke": "#FF708D"
+      }
+    },
+    {
+      "id": "KDS143110-4.2.8.2.4.1_2(R) => KDS143110-4.2.8.2.4.3",
+      "source": "KDS143110-4.2.8.2.4.1_2(R)",
+      "target": "KDS143110-4.2.8.2.4.3",
+      "label": "범위 참조",
+      "type": "smoothstep",
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#FF708D"
+      },
+      "animated": true,
+      "style": {
+        "strokeWidth": 3,
+        "stroke": "#FF708D"
+      }
+    },
+    {
+      "id": "KDS143110-4.2.8.2.4.1_2(R) => KDS143110-4.2.8.2.4.2",
+      "source": "KDS143110-4.2.8.2.4.1_2(R)",
+      "target": "KDS143110-4.2.8.2.4.2",
+      "label": "범위 참조",
+      "type": "smoothstep",
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#FF708D"
+      },
+      "animated": true,
+      "style": {
+        "strokeWidth": 3,
+        "stroke": "#FF708D"
+      }
+    },
+    {
+      "id": "KDS143110-4.2.8.2.4.2_1(R) => KDS143110-4.2.8.2.2.2_1(R)",
+      "source": "KDS143110-4.2.8.2.4.2_1(R)",
+      "target": "KDS143110-4.2.8.2.2.2_1(R)",
+      "label": "수식 참조",
+      "type": "smoothstep",
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#FF708D"
+      },
+      "animated": true,
+      "style": {
+        "strokeWidth": 3,
+        "stroke": "#FF708D"
+      }
+    },
+    {
+      "id": "KDS143110-4.2.8.2.4.2_3(R) => KDS143110-4.2.8.2.4.2_2(R)",
+      "source": "KDS143110-4.2.8.2.4.2_3(R)",
+      "target": "KDS143110-4.2.8.2.4.2_2(R)",
+      "label": "수식 참조",
+      "type": "smoothstep",
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#FF708D"
+      },
+      "animated": true,
+      "style": {
+        "strokeWidth": 3,
+        "stroke": "#FF708D"
+      }
+    },
+    {
+      "id": "KDS143110-4.2.8.2.4.3_2(R) => KDS143110-4.2.8.2.5.2",
+      "source": "KDS143110-4.2.8.2.4.3_2(R)",
+      "target": "KDS143110-4.2.8.2.5.2",
+      "label": "범위 참조",
+      "type": "smoothstep",
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#FF708D"
+      },
+      "animated": true,
+      "style": {
+        "strokeWidth": 3,
+        "stroke": "#FF708D"
+      }
+    },
+    {
+      "id": "KDS143110-4.2.8.2.4.3_2(R) => KDS143110-4.2.8.2.5.3",
+      "source": "KDS143110-4.2.8.2.4.3_2(R)",
+      "target": "KDS143110-4.2.8.2.5.3",
+      "label": "범위 참조",
+      "type": "smoothstep",
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#FF708D"
+      },
+      "animated": true,
+      "style": {
+        "strokeWidth": 3,
+        "stroke": "#FF708D"
+      }
+    },
+    {
+      "id": "KDS143110-4.2.8.2.4.3_3(R) => KDS143110-4.2.8.2.1.1",
+      "source": "KDS143110-4.2.8.2.4.3_3(R)",
+      "target": "KDS143110-4.2.8.2.1.1",
+      "label": "범위 참조",
+      "type": "smoothstep",
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#FF708D"
+      },
+      "animated": true,
+      "style": {
+        "strokeWidth": 3,
+        "stroke": "#FF708D"
+      }
+    },
+    {
+      "id": "KDS143110-4.2.8.2.4.5_1(R) => KDS143110-4.2.8.2.5",
+      "source": "KDS143110-4.2.8.2.4.5_1(R)",
+      "target": "KDS143110-4.2.8.2.5",
+      "label": "범위 참조",
+      "type": "smoothstep",
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#FF708D"
+      },
+      "animated": true,
+      "style": {
+        "strokeWidth": 3,
+        "stroke": "#FF708D"
+      }
+    },
+    {
+      "id": "KDS143110-4.3.2.1.1.5_2(R) => KDS143110-4.3.2.1.1.4",
+      "source": "KDS143110-4.3.2.1.1.5_2(R)",
+      "target": "KDS143110-4.3.2.1.1.4",
+      "label": "범위 참조",
+      "type": "smoothstep",
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#FF708D"
+      },
+      "animated": true,
+      "style": {
+        "strokeWidth": 3,
+        "stroke": "#FF708D"
+      }
+    },
+    {
+      "id": "KDS143110-4.3.3.2.3.2_2(R) => KDS143110-4.3.3.2.8.2",
+      "source": "KDS143110-4.3.3.2.3.2_2(R)",
+      "target": "KDS143110-4.3.3.2.8.2",
+      "label": "범위 참조",
+      "type": "smoothstep",
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#FF708D"
+      },
+      "animated": true,
+      "style": {
+        "strokeWidth": 3,
+        "stroke": "#FF708D"
+      }
+    },
+    {
+      "id": "KDS143110-4.3.3.2.8.1_1(R) => KDS143110-4.3.3.2.8.2",
+      "source": "KDS143110-4.3.3.2.8.1_1(R)",
+      "target": "KDS143110-4.3.3.2.8.2",
+      "label": "범위 참조",
+      "type": "smoothstep",
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#FF708D"
+      },
+      "animated": true,
+      "style": {
+        "strokeWidth": 3,
+        "stroke": "#FF708D"
+      }
+    },
+    {
+      "id": "KDS143110-4.3.3.2.8.1_2(R) => KDS143110-4.3.3.2.8.3",
+      "source": "KDS143110-4.3.3.2.8.1_2(R)",
+      "target": "KDS143110-4.3.3.2.8.3",
+      "label": "범위 참조",
+      "type": "smoothstep",
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#FF708D"
+      },
+      "animated": true,
+      "style": {
+        "strokeWidth": 3,
+        "stroke": "#FF708D"
+      }
+    },
+    {
+      "id": "KDS143110-4.3.3.2.9_2(R) => KDS143110-4.3.3.2.1.1",
+      "source": "KDS143110-4.3.3.2.9_2(R)",
+      "target": "KDS143110-4.3.3.2.1.1",
+      "label": "범위 참조",
+      "type": "smoothstep",
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#FF708D"
+      },
+      "animated": true,
+      "style": {
+        "strokeWidth": 3,
+        "stroke": "#FF708D"
+      }
+    },
+    {
+      "id": "KDS143110-4.3.3.2.9_3(R) => KDS143110-4.3.3.2.1.1",
+      "source": "KDS143110-4.3.3.2.9_3(R)",
+      "target": "KDS143110-4.3.3.2.1.1",
+      "label": "범위 참조",
+      "type": "smoothstep",
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#FF708D"
+      },
+      "animated": true,
+      "style": {
+        "strokeWidth": 3,
+        "stroke": "#FF708D"
+      }
+    },
+    {
+      "id": "KDS143110-4.3.3.3.1.2_1(R) => KDS143110-4.3.3.3.2.2",
+      "source": "KDS143110-4.3.3.3.1.2_1(R)",
+      "target": "KDS143110-4.3.3.3.2.2",
+      "label": "유사수식 참조",
+      "type": "smoothstep",
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#FF708D"
+      },
+      "animated": true,
+      "style": {
+        "strokeWidth": 3,
+        "stroke": "#FF708D"
+      }
+    },
+    {
+      "id": "KDS143110-4.3.3.3.1.2_3(R) => KDS143110-4.3.3.3.3",
+      "source": "KDS143110-4.3.3.3.1.2_3(R)",
+      "target": "KDS143110-4.3.3.3.3",
+      "label": "유사수식 참조",
+      "type": "smoothstep",
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#FF708D"
+      },
+      "animated": true,
+      "style": {
+        "strokeWidth": 3,
+        "stroke": "#FF708D"
+      }
+    },
+    {
+      "id": "KDS143110-4.4.1.1_1(R) => KDS143110-4.3",
+      "source": "KDS143110-4.4.1.1_1(R)",
+      "target": "KDS143110-4.3",
+      "label": "범위 참조",
+      "type": "smoothstep",
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#FF708D"
+      },
+      "animated": true,
+      "style": {
+        "strokeWidth": 3,
+        "stroke": "#FF708D"
+      }
+    },
+    {
+      "id": "KDS143110-4.4.1.1_1(R) => KDS143110-4.2",
+      "source": "KDS143110-4.4.1.1_1(R)",
+      "target": "KDS143110-4.2",
+      "label": "범위 참조",
+      "type": "smoothstep",
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#FF708D"
+      },
+      "animated": true,
+      "style": {
+        "strokeWidth": 3,
+        "stroke": "#FF708D"
+      }
+    },
+    {
+      "id": "KDS143110-4.4.1.1_2(R) => KDS143110-4.3",
+      "source": "KDS143110-4.4.1.1_2(R)",
+      "target": "KDS143110-4.3",
+      "label": "범위 참조",
+      "type": "smoothstep",
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#FF708D"
+      },
+      "animated": true,
+      "style": {
+        "strokeWidth": 3,
+        "stroke": "#FF708D"
+      }
+    },
+    {
+      "id": "KDS143110-4.4.1.1_2(R) => KDS143110-4.2",
+      "source": "KDS143110-4.4.1.1_2(R)",
+      "target": "KDS143110-4.2",
+      "label": "범위 참조",
+      "type": "smoothstep",
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#FF708D"
+      },
+      "animated": true,
+      "style": {
+        "strokeWidth": 3,
+        "stroke": "#FF708D"
+      }
+    },
+    {
+      "id": "KDS143110-4.4.1.2_1(R) => KDS143110-4.4.1.1_1(R)",
+      "source": "KDS143110-4.4.1.2_1(R)",
+      "target": "KDS143110-4.4.1.1_1(R)",
+      "label": "수식 참조",
+      "type": "smoothstep",
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#FF708D"
+      },
+      "animated": true,
+      "style": {
+        "strokeWidth": 3,
+        "stroke": "#FF708D"
+      }
+    },
+    {
+      "id": "KDS143110-4.4.1.2_1(R) => KDS143110-4.4.1.1_2(R)",
+      "source": "KDS143110-4.4.1.2_1(R)",
+      "target": "KDS143110-4.4.1.1_2(R)",
+      "label": "수식 참조",
+      "type": "smoothstep",
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#FF708D"
+      },
+      "animated": true,
+      "style": {
+        "strokeWidth": 3,
+        "stroke": "#FF708D"
+      }
+    },
+    {
+      "id": "KDS143110-4.4.1.3_2(R) => KDS143110-4.4.1.1_1(R)",
+      "source": "KDS143110-4.4.1.3_2(R)",
+      "target": "KDS143110-4.4.1.1_1(R)",
+      "label": "수식 참조",
+      "type": "smoothstep",
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#FF708D"
+      },
+      "animated": true,
+      "style": {
+        "strokeWidth": 3,
+        "stroke": "#FF708D"
+      }
+    },
+    {
+      "id": "KDS143110-4.4.2 => KDS143110-4.4.1",
+      "source": "KDS143110-4.4.2",
+      "target": "KDS143110-4.4.1",
+      "label": "구현 불필요 참조",
+      "type": "smoothstep",
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#FF708D"
+      },
+      "animated": true,
+      "style": {
+        "strokeWidth": 3,
+        "stroke": "#FF708D"
+      }
+    },
+    {
+      "id": "KDS143110-4.4.2 => KDS143110-4.1",
+      "source": "KDS143110-4.4.2",
+      "target": "KDS143110-4.1",
+      "label": "범위 참조",
+      "type": "smoothstep",
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#FF708D"
+      },
+      "animated": true,
+      "style": {
+        "strokeWidth": 3,
+        "stroke": "#FF708D"
+      }
+    },
+    {
+      "id": "KDS143110-4.4.2 => KDS143110-4.2",
+      "source": "KDS143110-4.4.2",
+      "target": "KDS143110-4.2",
+      "label": "범위 참조",
+      "type": "smoothstep",
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#FF708D"
+      },
+      "animated": true,
+      "style": {
+        "strokeWidth": 3,
+        "stroke": "#FF708D"
+      }
+    },
+    {
+      "id": "KDS143110-4.4.2 => KDS143110-4.3",
+      "source": "KDS143110-4.4.2",
+      "target": "KDS143110-4.3",
+      "label": "범위 참조",
+      "type": "smoothstep",
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#FF708D"
+      },
+      "animated": true,
+      "style": {
+        "strokeWidth": 3,
+        "stroke": "#FF708D"
+      }
+    },
+    {
+      "id": "KDS143110-4.4.3.2 => KDS143110-4.4.1",
+      "source": "KDS143110-4.4.3.2",
+      "target": "KDS143110-4.4.1",
+      "label": "범위 참조",
+      "type": "smoothstep",
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#FF708D"
+      },
+      "animated": true,
+      "style": {
+        "strokeWidth": 3,
+        "stroke": "#FF708D"
+      }
+    },
+    {
+      "id": "KDS143110-4.4.3.2 => KDS143110-4.1",
+      "source": "KDS143110-4.4.3.2",
+      "target": "KDS143110-4.1",
+      "label": "범위 참조",
+      "type": "smoothstep",
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#FF708D"
+      },
+      "animated": true,
+      "style": {
+        "strokeWidth": 3,
+        "stroke": "#FF708D"
+      }
+    },
+    {
+      "id": "KDS143110-4.4.3.2 => KDS143110-4.2",
+      "source": "KDS143110-4.4.3.2",
+      "target": "KDS143110-4.2",
+      "label": "범위 참조",
+      "type": "smoothstep",
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#FF708D"
+      },
+      "animated": true,
+      "style": {
+        "strokeWidth": 3,
+        "stroke": "#FF708D"
+      }
+    },
+    {
+      "id": "KDS143110-4.4.3.2 => KDS143110-4.3",
+      "source": "KDS143110-4.4.3.2",
+      "target": "KDS143110-4.3",
+      "label": "범위 참조",
+      "type": "smoothstep",
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#FF708D"
+      },
+      "animated": true,
+      "style": {
+        "strokeWidth": 3,
+        "stroke": "#FF708D"
+      }
+    },
+    {
+      "id": "KDS143110-4.4.4 => KDS143110-4.1.3.2",
+      "source": "KDS143110-4.4.4",
+      "target": "KDS143110-4.1.3.2",
+      "label": "범위 참조",
+      "type": "smoothstep",
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#FF708D"
+      },
+      "animated": true,
+      "style": {
+        "strokeWidth": 3,
+        "stroke": "#FF708D"
+      }
+    },
+    {
+      "id": "KDS143110-4.5.1.3.2.1_2(R) => KDS143110-4.3",
+      "source": "KDS143110-4.5.1.3.2.1_2(R)",
+      "target": "KDS143110-4.3",
+      "label": "범위 참조",
+      "type": "smoothstep",
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#FF708D"
+      },
+      "animated": true,
+      "style": {
+        "strokeWidth": 3,
+        "stroke": "#FF708D"
+      }
+    },
+    {
+      "id": "KDS143110-4.5.1.3.2.1_2(R) => KDS143110-4.5.1.3.2.1_1(R)",
+      "source": "KDS143110-4.5.1.3.2.1_2(R)",
+      "target": "KDS143110-4.5.1.3.2.1_1(R)",
+      "label": "구현 불필요 참조",
+      "type": "smoothstep",
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#FF708D"
+      },
+      "animated": true,
+      "style": {
+        "strokeWidth": 3,
+        "stroke": "#FF708D"
+      }
+    },
+    {
+      "id": "KDS143110-4.5.1.3.2.2 => KDS143110-4.5.1.3.2.1_2(R)",
+      "source": "KDS143110-4.5.1.3.2.2",
+      "target": "KDS143110-4.5.1.3.2.1_2(R)",
+      "label": "역참조(수식)",
+      "type": "smoothstep",
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#FF708D"
+      },
+      "animated": true,
+      "style": {
+        "strokeWidth": 3,
+        "stroke": "#FF708D"
+      }
+    },
+    {
+      "id": "KDS143110-4.5.1.3.2.2 => KDS143110-4.5.1.3.2.1_2(R)",
+      "source": "KDS143110-4.5.1.3.2.2",
+      "target": "KDS143110-4.5.1.3.2.1_2(R)",
+      "label": "역참조(수식)",
+      "type": "smoothstep",
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#FF708D"
+      },
+      "animated": true,
+      "style": {
+        "strokeWidth": 3,
+        "stroke": "#FF708D"
+      }
+    },
+    {
+      "id": "KDS143110-4.5.3.3.3_1(R) => KDS143110-4.2",
+      "source": "KDS143110-4.5.3.3.3_1(R)",
+      "target": "KDS143110-4.2",
+      "label": "범위 참조",
+      "type": "smoothstep",
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#FF708D"
+      },
+      "animated": true,
+      "style": {
+        "strokeWidth": 3,
+        "stroke": "#FF708D"
+      }
+    },
+    {
+      "id": "KDS143110-4.5.3.3.3_2(R) => KDS143110-4.2",
+      "source": "KDS143110-4.5.3.3.3_2(R)",
+      "target": "KDS143110-4.2",
+      "label": "범위 참조",
+      "type": "smoothstep",
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#FF708D"
+      },
+      "animated": true,
+      "style": {
+        "strokeWidth": 3,
+        "stroke": "#FF708D"
+      }
+    },
+    {
+      "id": "KDS143110-4.5.4.2.2_2(R) => KDS143110-4.5.4.2.2_1(R)",
+      "source": "KDS143110-4.5.4.2.2_2(R)",
+      "target": "KDS143110-4.5.4.2.2_1(R)",
+      "label": "수식 참조",
+      "type": "smoothstep",
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#FF708D"
+      },
+      "animated": true,
+      "style": {
+        "strokeWidth": 3,
+        "stroke": "#FF708D"
+      }
+    },
+    {
+      "id": "KDS143110-4.5.4.2.5.3 => KDS143110-4.5.4.2.3",
+      "source": "KDS143110-4.5.4.2.5.3",
+      "target": "KDS143110-4.5.4.2.3",
+      "label": "수식 참조",
+      "type": "smoothstep",
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#FF708D"
+      },
+      "animated": true,
+      "style": {
+        "strokeWidth": 3,
+        "stroke": "#FF708D"
+      }
+    },
+    {
+      "id": "KDS143110-A.2.2 => KDS143110-A.2.1",
+      "source": "KDS143110-A.2.2",
+      "target": "KDS143110-A.2.1",
+      "label": "구현 불필요 참조",
+      "type": "smoothstep",
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#FF708D"
+      },
+      "animated": true,
+      "style": {
+        "strokeWidth": 3,
+        "stroke": "#FF708D"
+      }
+    },
+    {
+      "id": "KDS143110-A.3.2 => KDS143110-A.2.1",
+      "source": "KDS143110-A.3.2",
+      "target": "KDS143110-A.2.1",
+      "label": "범위 참조",
+      "type": "smoothstep",
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#FF708D"
+      },
+      "animated": true,
+      "style": {
+        "strokeWidth": 3,
+        "stroke": "#FF708D"
+      }
+    },
+    {
+      "id": "KDS143110-A.3.2 => KDS143110-A.2.2",
+      "source": "KDS143110-A.3.2",
+      "target": "KDS143110-A.2.2",
+      "label": "범위 참조",
+      "type": "smoothstep",
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#FF708D"
+      },
+      "animated": true,
+      "style": {
+        "strokeWidth": 3,
+        "stroke": "#FF708D"
+      }
+    },
+    {
+      "id": "KDS143110-A.3.3 => KDS143110-A.2.1",
+      "source": "KDS143110-A.3.3",
+      "target": "KDS143110-A.2.1",
+      "label": "범위 참조",
+      "type": "smoothstep",
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#FF708D"
+      },
+      "animated": true,
+      "style": {
+        "strokeWidth": 3,
+        "stroke": "#FF708D"
+      }
+    },
+    {
+      "id": "KDS143110-A.3.3 => KDS143110-A.2.2",
+      "source": "KDS143110-A.3.3",
+      "target": "KDS143110-A.2.2",
+      "label": "범위 참조",
+      "type": "smoothstep",
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#FF708D"
+      },
+      "animated": true,
+      "style": {
+        "strokeWidth": 3,
+        "stroke": "#FF708D"
+      }
+    },
+    {
+      "id": "KDS143110-A.4 => KDS143110-A.2.1",
+      "source": "KDS143110-A.4",
+      "target": "KDS143110-A.2.1",
+      "label": "범위 참조",
+      "type": "smoothstep",
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#FF708D"
+      },
+      "animated": true,
+      "style": {
+        "strokeWidth": 3,
+        "stroke": "#FF708D"
+      }
+    },
+    {
+      "id": "KDS143110-A.4 => KDS143110-A.2.2",
+      "source": "KDS143110-A.4",
+      "target": "KDS143110-A.2.2",
+      "label": "범위 참조",
+      "type": "smoothstep",
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#FF708D"
+      },
+      "animated": true,
+      "style": {
+        "strokeWidth": 3,
+        "stroke": "#FF708D"
+      }
+    },
+    {
+      "id": "KDS143120-4.1.2.2 => KDS143120-4.1.2.5",
+      "source": "KDS143120-4.1.2.2",
+      "target": "KDS143120-4.1.2.5",
+      "label": "범위 참조",
+      "type": "smoothstep",
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#FF708D"
+      },
+      "animated": true,
+      "style": {
+        "strokeWidth": 3,
+        "stroke": "#FF708D"
+      }
+    },
+    {
+      "id": "KDS143125-4.1.2.2.2_4(R) => KDS143125-4.1.2.3",
+      "source": "KDS143125-4.1.2.2.2_4(R)",
+      "target": "KDS143125-4.1.2.3",
+      "label": "범위 참조",
+      "type": "smoothstep",
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#FF708D"
+      },
+      "animated": true,
+      "style": {
+        "strokeWidth": 3,
+        "stroke": "#FF708D"
+      }
+    },
+    {
+      "id": "KDS143125-4.1.3.7 => KDS143125-4.1.3.6",
+      "source": "KDS143125-4.1.3.7",
+      "target": "KDS143125-4.1.3.6",
+      "label": "범위 참조",
+      "type": "smoothstep",
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#FF708D"
+      },
+      "animated": true,
+      "style": {
+        "strokeWidth": 3,
+        "stroke": "#FF708D"
+      }
+    },
+    {
+      "id": "KDS143125-4.2.1_3(R) => KDS143125-4.1.4.1",
+      "source": "KDS143125-4.2.1_3(R)",
+      "target": "KDS143125-4.1.4.1",
+      "label": "범위 참조",
+      "type": "smoothstep",
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#FF708D"
+      },
+      "animated": true,
+      "style": {
+        "strokeWidth": 3,
+        "stroke": "#FF708D"
+      }
+    },
+    {
+      "id": "KDS143125-4.2.1_3(R) => KDS143125-4.1.5",
+      "source": "KDS143125-4.2.1_3(R)",
+      "target": "KDS143125-4.1.5",
+      "label": "범위 참조",
+      "type": "smoothstep",
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#FF708D"
+      },
+      "animated": true,
+      "style": {
+        "strokeWidth": 3,
+        "stroke": "#FF708D"
+      }
+    },
+    {
+      "id": "KDS143125-4.3.1.2.1 => KDS143125-4.3.2.1_2(R)",
+      "source": "KDS143125-4.3.1.2.1",
+      "target": "KDS143125-4.3.2.1_2(R)",
+      "label": "수식 참조",
+      "type": "smoothstep",
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#FF708D"
+      },
+      "animated": true,
+      "style": {
+        "strokeWidth": 3,
+        "stroke": "#FF708D"
+      }
+    },
+    {
+      "id": "KDS143125-4.3.1.2.2 => KDS143125-4.3.2.2_2(R)",
+      "source": "KDS143125-4.3.1.2.2",
+      "target": "KDS143125-4.3.2.2_2(R)",
+      "label": "수식 참조",
+      "type": "smoothstep",
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#FF708D"
+      },
+      "animated": true,
+      "style": {
+        "strokeWidth": 3,
+        "stroke": "#FF708D"
+      }
+    },
+    {
+      "id": "KDS143125-4.3.1.3.1 => KDS143125-4.3.2.1_2(R)",
+      "source": "KDS143125-4.3.1.3.1",
+      "target": "KDS143125-4.3.2.1_2(R)",
+      "label": "수식 참조",
+      "type": "smoothstep",
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#FF708D"
+      },
+      "animated": true,
+      "style": {
+        "strokeWidth": 3,
+        "stroke": "#FF708D"
+      }
+    },
+    {
+      "id": "KDS143125-4.3.1.3.2 => KDS143125-4.3.2.2_3(R)",
+      "source": "KDS143125-4.3.1.3.2",
+      "target": "KDS143125-4.3.2.2_3(R)",
+      "label": "수식 참조",
+      "type": "smoothstep",
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#FF708D"
+      },
+      "animated": true,
+      "style": {
+        "strokeWidth": 3,
+        "stroke": "#FF708D"
+      }
+    },
+    {
+      "id": "KDS143125-4.3.2.2.2 => KDS143125-4.3.2.2.1",
+      "source": "KDS143125-4.3.2.2.2",
+      "target": "KDS143125-4.3.2.2.1",
+      "label": "역참조(유사수식)",
+      "type": "smoothstep",
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#FF708D"
+      },
+      "animated": true,
+      "style": {
+        "strokeWidth": 3,
+        "stroke": "#FF708D"
+      }
+    },
+    {
+      "id": "KDS143125-4.3.2.2.4_3(R) => KDS143125-4.3.2.2.4_1(R)",
+      "source": "KDS143125-4.3.2.2.4_3(R)",
+      "target": "KDS143125-4.3.2.2.4_1(R)",
+      "label": "수식 참조",
+      "type": "smoothstep",
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#FF708D"
+      },
+      "animated": true,
+      "style": {
+        "strokeWidth": 3,
+        "stroke": "#FF708D"
+      }
+    },
+    {
+      "id": "KDS143125-4.3.2.2.4_3(R) => KDS143125-4.3.2.2.4_2(R)",
+      "source": "KDS143125-4.3.2.2.4_3(R)",
+      "target": "KDS143125-4.3.2.2.4_2(R)",
+      "label": "수식 참조",
+      "type": "smoothstep",
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#FF708D"
+      },
+      "animated": true,
+      "style": {
+        "strokeWidth": 3,
+        "stroke": "#FF708D"
+      }
+    },
+    {
+      "id": "KDS143125-4.3.3.1.4 => KDS143125-4.3.2.2.2",
+      "source": "KDS143125-4.3.3.1.4",
+      "target": "KDS143125-4.3.2.2.2",
+      "label": "유사수식 참조",
+      "type": "smoothstep",
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#FF708D"
+      },
+      "animated": true,
+      "style": {
+        "strokeWidth": 3,
+        "stroke": "#FF708D"
+      }
+    },
+    {
+      "id": "KDS143125-4.3.3.1.4 => KDS143125-4.3.3.2.3",
+      "source": "KDS143125-4.3.3.1.4",
+      "target": "KDS143125-4.3.3.2.3",
+      "label": "유사수식 참조",
+      "type": "smoothstep",
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#FF708D"
+      },
+      "animated": true,
+      "style": {
+        "strokeWidth": 3,
+        "stroke": "#FF708D"
+      }
+    },
+    {
+      "id": "KDS143125-4.3.3.2.4 => KDS143125-4.3.2.2.2",
+      "source": "KDS143125-4.3.3.2.4",
+      "target": "KDS143125-4.3.2.2.2",
+      "label": "유사수식 참조",
+      "type": "smoothstep",
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#FF708D"
+      },
+      "animated": true,
+      "style": {
+        "strokeWidth": 3,
+        "stroke": "#FF708D"
+      }
+    },
+    {
+      "id": "KDS143125-4.3.3.2.4 => KDS143125-4.3.2.2.2",
+      "source": "KDS143125-4.3.3.2.4",
+      "target": "KDS143125-4.3.2.2.2",
+      "label": "유사수식 참조",
+      "type": "smoothstep",
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#FF708D"
+      },
+      "animated": true,
+      "style": {
+        "strokeWidth": 3,
+        "stroke": "#FF708D"
+      }
+    },
+    {
+      "id": "KDS143125-4.3.3.2.4 => KDS143125-4.3.3.2",
+      "source": "KDS143125-4.3.3.2.4",
+      "target": "KDS143125-4.3.3.2",
+      "label": "범위 참조",
+      "type": "smoothstep",
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#FF708D"
+      },
+      "animated": true,
+      "style": {
+        "strokeWidth": 3,
+        "stroke": "#FF708D"
+      }
+    },
+    {
+      "id": "KDS241011-4.6.4_3(R) => KDS241221-4.3.1.1",
+      "source": "KDS241011-4.6.4_3(R)",
+      "target": "KDS241221-4.3.1.1",
+      "label": "외부 참조",
+      "type": "smoothstep",
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#FF708D"
+      },
+      "animated": true,
+      "style": {
+        "strokeWidth": 3,
+        "stroke": "#FF708D"
+      }
+    },
+    {
+      "id": "KDS241221-4.9.2.1_2(R) => KDS241221-4.9.2.1_1(R)",
+      "source": "KDS241221-4.9.2.1_2(R)",
+      "target": "KDS241221-4.9.2.1_1(R)",
+      "label": "유사수식 참조",
+      "type": "smoothstep",
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#FF708D"
+      },
+      "animated": true,
+      "style": {
+        "strokeWidth": 3,
+        "stroke": "#FF708D"
+      }
+    },
+    {
+      "id": "KDS241221-4.9.2.2_2(R) => KDS241221-4.9.2.2_1(R)",
+      "source": "KDS241221-4.9.2.2_2(R)",
+      "target": "KDS241221-4.9.2.2_1(R)",
+      "label": "유사수식 참조",
+      "type": "smoothstep",
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#FF708D"
+      },
+      "animated": true,
+      "style": {
+        "strokeWidth": 3,
+        "stroke": "#FF708D"
+      }
+    },
+    {
+      "id": "KDS241421-3.1.2.2_6(R) => KDS241421-3.1.2.1_3(R)",
+      "source": "KDS241421-3.1.2.2_6(R)",
+      "target": "KDS241421-3.1.2.1_3(R)",
+      "label": "수식 참조",
+      "type": "smoothstep",
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#FF708D"
+      },
+      "animated": true,
+      "style": {
+        "strokeWidth": 3,
+        "stroke": "#FF708D"
+      }
+    },
+    {
+      "id": "KDS241421-3.1.2.3_1(R) => KDS241421-3.1.2.1_3(R)",
+      "source": "KDS241421-3.1.2.3_1(R)",
+      "target": "KDS241421-3.1.2.1_3(R)",
+      "label": "수식 참조",
+      "type": "smoothstep",
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#FF708D"
+      },
+      "animated": true,
+      "style": {
+        "strokeWidth": 3,
+        "stroke": "#FF708D"
+      }
+    },
+    {
+      "id": "KDS241421-3.1.2.3_1(R) => KDS241421-3.1.2.2_1(R)",
+      "source": "KDS241421-3.1.2.3_1(R)",
+      "target": "KDS241421-3.1.2.2_1(R)",
+      "label": "수식 참조",
+      "type": "smoothstep",
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#FF708D"
+      },
+      "animated": true,
+      "style": {
+        "strokeWidth": 3,
+        "stroke": "#FF708D"
+      }
+    },
+    {
+      "id": "KDS241421-3.1.2.3_2(R) => KDS241421-3.1.2.3_1(R)",
+      "source": "KDS241421-3.1.2.3_2(R)",
+      "target": "KDS241421-3.1.2.3_1(R)",
+      "label": "수식 참조",
+      "type": "smoothstep",
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#FF708D"
+      },
+      "animated": true,
+      "style": {
+        "strokeWidth": 3,
+        "stroke": "#FF708D"
+      }
+    },
+    {
+      "id": "KDS241421-3.1.2.3_2(R) => KDS241421-3.1.2.1_3(R)",
+      "source": "KDS241421-3.1.2.3_2(R)",
+      "target": "KDS241421-3.1.2.1_3(R)",
+      "label": "수식 참조",
+      "type": "smoothstep",
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#FF708D"
+      },
+      "animated": true,
+      "style": {
+        "strokeWidth": 3,
+        "stroke": "#FF708D"
+      }
+    },
+    {
+      "id": "KDS241421-4.1.1.2_1(R) => KDS241421-3.2",
+      "source": "KDS241421-4.1.1.2_1(R)",
+      "target": "KDS241421-3.2",
+      "label": "범위 참조",
+      "type": "smoothstep",
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#FF708D"
+      },
+      "animated": true,
+      "style": {
+        "strokeWidth": 3,
+        "stroke": "#FF708D"
+      }
+    },
+    {
+      "id": "KDS241421-4.1.1.2_1(R) => KDS241421-3.3",
+      "source": "KDS241421-4.1.1.2_1(R)",
+      "target": "KDS241421-3.3",
+      "label": "범위 참조",
+      "type": "smoothstep",
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#FF708D"
+      },
+      "animated": true,
+      "style": {
+        "strokeWidth": 3,
+        "stroke": "#FF708D"
+      }
+    },
+    {
+      "id": "KDS241421-4.1.2.1_3(R) => KDS241421-4.1.2.3",
+      "source": "KDS241421-4.1.2.1_3(R)",
+      "target": "KDS241421-4.1.2.3",
+      "label": "범위 참조",
+      "type": "smoothstep",
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#FF708D"
+      },
+      "animated": true,
+      "style": {
+        "strokeWidth": 3,
+        "stroke": "#FF708D"
+      }
+    },
+    {
+      "id": "KDS241421-4.1.2.1_6(R) => KDS241421-4.1.2.3",
+      "source": "KDS241421-4.1.2.1_6(R)",
+      "target": "KDS241421-4.1.2.3",
+      "label": "범위 참조",
+      "type": "smoothstep",
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#FF708D"
+      },
+      "animated": true,
+      "style": {
+        "strokeWidth": 3,
+        "stroke": "#FF708D"
+      }
+    },
+    {
+      "id": "KDS241421-4.1.2.2_2(R) => KDS241421-4.1.2.2_1(R)",
+      "source": "KDS241421-4.1.2.2_2(R)",
+      "target": "KDS241421-4.1.2.2_1(R)",
+      "label": "수식 참조",
+      "type": "smoothstep",
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#FF708D"
+      },
+      "animated": true,
+      "style": {
+        "strokeWidth": 3,
+        "stroke": "#FF708D"
+      }
+    },
+    {
+      "id": "KDS241421-4.1.2.3_2(R) => KDS241421-4.1.2.3_4(R)",
+      "source": "KDS241421-4.1.2.3_2(R)",
+      "target": "KDS241421-4.1.2.3_4(R)",
+      "label": "수식 참조",
+      "type": "smoothstep",
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#FF708D"
+      },
+      "animated": true,
+      "style": {
+        "strokeWidth": 3,
+        "stroke": "#FF708D"
+      }
+    },
+    {
+      "id": "KDS241421-4.1.2.3_3(R) => KDS241421-4.1.2.3_4(R)",
+      "source": "KDS241421-4.1.2.3_3(R)",
+      "target": "KDS241421-4.1.2.3_4(R)",
+      "label": "수식 참조",
+      "type": "smoothstep",
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#FF708D"
+      },
+      "animated": true,
+      "style": {
+        "strokeWidth": 3,
+        "stroke": "#FF708D"
+      }
+    },
+    {
+      "id": "KDS241421-4.1.2.3_4(R) => KDS241421-4.1.2.3_3(R)",
+      "source": "KDS241421-4.1.2.3_4(R)",
+      "target": "KDS241421-4.1.2.3_3(R)",
+      "label": "수식 참조",
+      "type": "smoothstep",
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#FF708D"
+      },
+      "animated": true,
+      "style": {
+        "strokeWidth": 3,
+        "stroke": "#FF708D"
+      }
+    },
+    {
+      "id": "KDS241421-4.1.2.3_4(R) => KDS241421-4.1.2.3_2(R)",
+      "source": "KDS241421-4.1.2.3_4(R)",
+      "target": "KDS241421-4.1.2.3_2(R)",
+      "label": "수식 참조",
+      "type": "smoothstep",
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#FF708D"
+      },
+      "animated": true,
+      "style": {
+        "strokeWidth": 3,
+        "stroke": "#FF708D"
+      }
+    },
+    {
+      "id": "KDS241421-4.1.2.3_9(R) => KDS241421-4.1.2.3_3(R)",
+      "source": "KDS241421-4.1.2.3_9(R)",
+      "target": "KDS241421-4.1.2.3_3(R)",
+      "label": "수식 참조",
+      "type": "smoothstep",
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#FF708D"
+      },
+      "animated": true,
+      "style": {
+        "strokeWidth": 3,
+        "stroke": "#FF708D"
+      }
+    },
+    {
+      "id": "KDS241421-4.1.2.4_4(R) => KDS241421-4.1.7",
+      "source": "KDS241421-4.1.2.4_4(R)",
+      "target": "KDS241421-4.1.7",
+      "label": "범위 참조",
+      "type": "smoothstep",
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#FF708D"
+      },
+      "animated": true,
+      "style": {
+        "strokeWidth": 3,
+        "stroke": "#FF708D"
+      }
+    },
+    {
+      "id": "KDS241421-4.1.2.4_4(R) => KDS241421-4.1.2.4_2(R)",
+      "source": "KDS241421-4.1.2.4_4(R)",
+      "target": "KDS241421-4.1.2.4_2(R)",
+      "label": "수식 참조",
+      "type": "smoothstep",
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#FF708D"
+      },
+      "animated": true,
+      "style": {
+        "strokeWidth": 3,
+        "stroke": "#FF708D"
+      }
+    },
+    {
+      "id": "KDS241421-4.1.4.2_4(R) => KDS241421-4.1.4.2_3(R)",
+      "source": "KDS241421-4.1.4.2_4(R)",
+      "target": "KDS241421-4.1.4.2_3(R)",
+      "label": "수식 참조",
+      "type": "smoothstep",
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#FF708D"
+      },
+      "animated": true,
+      "style": {
+        "strokeWidth": 3,
+        "stroke": "#FF708D"
+      }
+    },
+    {
+      "id": "KDS241421-4.2.3.3_5(R) => KDS241421-4.2.3.3",
+      "source": "KDS241421-4.2.3.3_5(R)",
+      "target": "KDS241421-4.2.3.3",
+      "label": "범위 참조",
+      "type": "smoothstep",
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#FF708D"
+      },
+      "animated": true,
+      "style": {
+        "strokeWidth": 3,
+        "stroke": "#FF708D"
+      }
+    },
+    {
+      "id": "KDS241421-4.2.3.3_5(R) => KDS241421-4.2.3.4",
+      "source": "KDS241421-4.2.3.3_5(R)",
+      "target": "KDS241421-4.2.3.4",
+      "label": "범위 참조",
+      "type": "smoothstep",
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#FF708D"
+      },
+      "animated": true,
+      "style": {
+        "strokeWidth": 3,
+        "stroke": "#FF708D"
+      }
+    },
+    {
+      "id": "KDS241421-4.2.3.4_2(R) => KDS241421-4.2.3.2_3(R)",
+      "source": "KDS241421-4.2.3.4_2(R)",
+      "target": "KDS241421-4.2.3.2_3(R)",
+      "label": "수식 참조",
+      "type": "smoothstep",
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#FF708D"
+      },
+      "animated": true,
+      "style": {
+        "strokeWidth": 3,
+        "stroke": "#FF708D"
+      }
+    },
+    {
+      "id": "KDS241421-4.2.3.4_3(R) => KDS241421-4.2.3.2_3(R)",
+      "source": "KDS241421-4.2.3.4_3(R)",
+      "target": "KDS241421-4.2.3.2_3(R)",
+      "label": "수식 참조",
+      "type": "smoothstep",
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#FF708D"
+      },
+      "animated": true,
+      "style": {
+        "strokeWidth": 3,
+        "stroke": "#FF708D"
+      }
+    },
+    {
+      "id": "KDS241421-4.2.4.2_1(R) => KDS241421-4.2.4.2_2(R)",
+      "source": "KDS241421-4.2.4.2_1(R)",
+      "target": "KDS241421-4.2.4.2_2(R)",
+      "label": "유사수식 참조",
+      "type": "smoothstep",
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#FF708D"
+      },
+      "animated": true,
+      "style": {
+        "strokeWidth": 3,
+        "stroke": "#FF708D"
+      }
+    },
+    {
+      "id": "KDS241421-4.2.4.2_1(R) => KDS241421-4.2.4.2_3(R)",
+      "source": "KDS241421-4.2.4.2_1(R)",
+      "target": "KDS241421-4.2.4.2_3(R)",
+      "label": "유사수식 참조",
+      "type": "smoothstep",
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#FF708D"
+      },
+      "animated": true,
+      "style": {
+        "strokeWidth": 3,
+        "stroke": "#FF708D"
+      }
+    },
+    {
+      "id": "KDS241421-4.2.4.2_2(R) => KDS241421-4.2.4.3",
+      "source": "KDS241421-4.2.4.2_2(R)",
+      "target": "KDS241421-4.2.4.3",
+      "label": "구현 불필요 참조",
+      "type": "smoothstep",
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#FF708D"
+      },
+      "animated": true,
+      "style": {
+        "strokeWidth": 3,
+        "stroke": "#FF708D"
+      }
+    },
+    {
+      "id": "KDS241421-4.2.4.2_2(R) => KDS241421-4.2.4.2_1(R)",
+      "source": "KDS241421-4.2.4.2_2(R)",
+      "target": "KDS241421-4.2.4.2_1(R)",
+      "label": "구현 불필요 참조",
+      "type": "smoothstep",
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#FF708D"
+      },
+      "animated": true,
+      "style": {
+        "strokeWidth": 3,
+        "stroke": "#FF708D"
+      }
+    },
+    {
+      "id": "KDS241421-4.2.4.2_3(R) => KDS241421-4.2.4.2_1(R)",
+      "source": "KDS241421-4.2.4.2_3(R)",
+      "target": "KDS241421-4.2.4.2_1(R)",
+      "label": "역참조(유사수식)",
+      "type": "smoothstep",
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#FF708D"
+      },
+      "animated": true,
+      "style": {
+        "strokeWidth": 3,
+        "stroke": "#FF708D"
+      }
+    },
+    {
+      "id": "KDS241421-4.6.2.3_2(R) => KDS241421-4.1.2.3_6(R)",
+      "source": "KDS241421-4.6.2.3_2(R)",
+      "target": "KDS241421-4.1.2.3_6(R)",
+      "label": "수식 참조",
+      "type": "smoothstep",
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#FF708D"
+      },
+      "animated": true,
+      "style": {
+        "strokeWidth": 3,
+        "stroke": "#FF708D"
+      }
+    },
+    {
+      "id": "KDS241421-4.6.2.8_5(R) => KDS241421-4.4.4.2",
+      "source": "KDS241421-4.6.2.8_5(R)",
+      "target": "KDS241421-4.4.4.2",
+      "label": "범위 참조",
+      "type": "smoothstep",
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#FF708D"
+      },
+      "animated": true,
+      "style": {
+        "strokeWidth": 3,
+        "stroke": "#FF708D"
+      }
+    },
+    {
+      "id": "KDS241421-4.6.5.1_5(R) => KDS241421-4.4",
+      "source": "KDS241421-4.6.5.1_5(R)",
+      "target": "KDS241421-4.4",
+      "label": "범위 참조",
+      "type": "smoothstep",
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#FF708D"
+      },
+      "animated": true,
+      "style": {
+        "strokeWidth": 3,
+        "stroke": "#FF708D"
+      }
+    },
+    {
+      "id": "KDS241451-3.1.3_2(R) => KDS241211",
+      "source": "KDS241451-3.1.3_2(R)",
+      "target": "KDS241211",
+      "label": "외부 참조",
+      "type": "smoothstep",
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#FF708D"
+      },
+      "animated": true,
+      "style": {
+        "strokeWidth": 3,
+        "stroke": "#FF708D"
+      }
+    },
+    {
+      "id": "KDS241451-3.2.3.1_1(R) => KDS241451-3.2.3.1_5(R)",
+      "source": "KDS241451-3.2.3.1_1(R)",
+      "target": "KDS241451-3.2.3.1_5(R)",
+      "label": "수식 참조",
+      "type": "smoothstep",
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#FF708D"
+      },
+      "animated": true,
+      "style": {
+        "strokeWidth": 3,
+        "stroke": "#FF708D"
+      }
+    },
+    {
+      "id": "KDS241451-3.3.3.7_2(R) => KDS241451-3.3.3.3",
+      "source": "KDS241451-3.3.3.7_2(R)",
+      "target": "KDS241451-3.3.3.3",
+      "label": "범위 참조",
+      "type": "smoothstep",
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#FF708D"
+      },
+      "animated": true,
+      "style": {
+        "strokeWidth": 3,
+        "stroke": "#FF708D"
+      }
+    },
+    {
+      "id": "KDS241451-3.3.4.2_1(R) => KDS241421",
+      "source": "KDS241451-3.3.4.2_1(R)",
+      "target": "KDS241421",
+      "label": "외부 참조",
+      "type": "smoothstep",
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#FF708D"
+      },
+      "animated": true,
+      "style": {
+        "strokeWidth": 3,
+        "stroke": "#FF708D"
+      }
+    },
+    {
+      "id": "KDS241451-3.3.4.2_1(R) => KDS241431",
+      "source": "KDS241451-3.3.4.2_1(R)",
+      "target": "KDS241431",
+      "label": "외부 참조",
+      "type": "smoothstep",
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#FF708D"
+      },
+      "animated": true,
+      "style": {
+        "strokeWidth": 3,
+        "stroke": "#FF708D"
+      }
+    },
+    {
+      "id": "KDS241451-3.3.4.2_2(R) => KDS241421",
+      "source": "KDS241451-3.3.4.2_2(R)",
+      "target": "KDS241421",
+      "label": "외부 참조",
+      "type": "smoothstep",
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#FF708D"
+      },
+      "animated": true,
+      "style": {
+        "strokeWidth": 3,
+        "stroke": "#FF708D"
+      }
+    },
+    {
+      "id": "KDS241451-3.3.4.2_2(R) => KDS241431",
+      "source": "KDS241451-3.3.4.2_2(R)",
+      "target": "KDS241431",
+      "label": "외부 참조",
+      "type": "smoothstep",
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#FF708D"
+      },
+      "animated": true,
+      "style": {
+        "strokeWidth": 3,
+        "stroke": "#FF708D"
+      }
+    },
+    {
+      "id": "KDS241451-3.9.5.3 => KDS241451-3.2.3.3",
+      "source": "KDS241451-3.9.5.3",
+      "target": "KDS241451-3.2.3.3",
+      "label": "범위 참조",
+      "type": "smoothstep",
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#FF708D"
+      },
+      "animated": true,
+      "style": {
+        "strokeWidth": 3,
+        "stroke": "#FF708D"
+      }
+    },
+    {
+      "id": "KDS241711-4.1.1.2_5(R) => KDS241711-4.1.1.2_4(R)",
+      "source": "KDS241711-4.1.1.2_5(R)",
+      "target": "KDS241711-4.1.1.2_4(R)",
+      "label": "범위 참조",
+      "type": "smoothstep",
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#FF708D"
+      },
+      "animated": true,
+      "style": {
+        "strokeWidth": 3,
+        "stroke": "#FF708D"
+      }
+    },
+    {
+      "id": "KDS241711-4.2.5_1(R) => KDS241711-4.1.1.2",
+      "source": "KDS241711-4.2.5_1(R)",
+      "target": "KDS241711-4.1.1.2",
+      "label": "범위 참조",
+      "type": "smoothstep",
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#FF708D"
+      },
+      "animated": true,
+      "style": {
+        "strokeWidth": 3,
+        "stroke": "#FF708D"
+      }
+    },
+    {
+      "id": "KDS241711-4.2.7.1_2(R) => KDS241711-4.6.6",
+      "source": "KDS241711-4.2.7.1_2(R)",
+      "target": "KDS241711-4.6.6",
+      "label": "범위 참조",
+      "type": "smoothstep",
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#FF708D"
+      },
+      "animated": true,
+      "style": {
+        "strokeWidth": 3,
+        "stroke": "#FF708D"
+      }
+    },
+    {
+      "id": "KDS241711-4.2.7.1_4(R) => KDS241711-4.6.2.5",
+      "source": "KDS241711-4.2.7.1_4(R)",
+      "target": "KDS241711-4.6.2.5",
+      "label": "범위 참조",
+      "type": "smoothstep",
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#FF708D"
+      },
+      "animated": true,
+      "style": {
+        "strokeWidth": 3,
+        "stroke": "#FF708D"
+      }
+    },
+    {
+      "id": "KDS241711-4.2.7.2_1(R) => KDS241711-4.6.2.5",
+      "source": "KDS241711-4.2.7.2_1(R)",
+      "target": "KDS241711-4.6.2.5",
+      "label": "범위 참조",
+      "type": "smoothstep",
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#FF708D"
+      },
+      "animated": true,
+      "style": {
+        "strokeWidth": 3,
+        "stroke": "#FF708D"
+      }
+    },
+    {
+      "id": "KDS241711-4.2.7.2_3(R) => KDS241711-4.4",
+      "source": "KDS241711-4.2.7.2_3(R)",
+      "target": "KDS241711-4.4",
+      "label": "범위 참조",
+      "type": "smoothstep",
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#FF708D"
+      },
+      "animated": true,
+      "style": {
+        "strokeWidth": 3,
+        "stroke": "#FF708D"
+      }
+    },
+    {
+      "id": "KDS241711-4.6.2.3_3(R) => KDS241711-4.6.2.2",
+      "source": "KDS241711-4.6.2.3_3(R)",
+      "target": "KDS241711-4.6.2.2",
+      "label": "외부 참조",
+      "type": "smoothstep",
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#FF708D"
+      },
+      "animated": true,
+      "style": {
+        "strokeWidth": 3,
+        "stroke": "#FF708D"
+      }
+    },
+    {
+      "id": "KDS241711-4.6.2.3_4(R) => KDS241711-4.6.2.2",
+      "source": "KDS241711-4.6.2.3_4(R)",
+      "target": "KDS241711-4.6.2.2",
+      "label": "외부 참조",
+      "type": "smoothstep",
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#FF708D"
+      },
+      "animated": true,
+      "style": {
+        "strokeWidth": 3,
+        "stroke": "#FF708D"
+      }
+    },
+    {
+      "id": "KDS241711-4.6.3.3_5(R) => KDS241711-4.6.3.4",
+      "source": "KDS241711-4.6.3.3_5(R)",
+      "target": "KDS241711-4.6.3.4",
+      "label": "범위 참조",
+      "type": "smoothstep",
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#FF708D"
+      },
+      "animated": true,
+      "style": {
+        "strokeWidth": 3,
+        "stroke": "#FF708D"
+      }
+    },
+    {
+      "id": "KDS241711-4.6.3.3_5(R) => KDS241711-4.6.3.5",
+      "source": "KDS241711-4.6.3.3_5(R)",
+      "target": "KDS241711-4.6.3.5",
+      "label": "범위 참조",
+      "type": "smoothstep",
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#FF708D"
+      },
+      "animated": true,
+      "style": {
+        "strokeWidth": 3,
+        "stroke": "#FF708D"
+      }
+    },
+    {
+      "id": "KDS241711-4.6.3.3_7(R) => KDS241711-4.6.3.5",
+      "source": "KDS241711-4.6.3.3_7(R)",
+      "target": "KDS241711-4.6.3.5",
+      "label": "범위 참조",
+      "type": "smoothstep",
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#FF708D"
+      },
+      "animated": true,
+      "style": {
+        "strokeWidth": 3,
+        "stroke": "#FF708D"
+      }
+    },
+    {
+      "id": "KDS241711-4.6.3.3_8(R) => KDS241711-4.6.3.5",
+      "source": "KDS241711-4.6.3.3_8(R)",
+      "target": "KDS241711-4.6.3.5",
+      "label": "범위 참조",
+      "type": "smoothstep",
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#FF708D"
+      },
+      "animated": true,
+      "style": {
+        "strokeWidth": 3,
+        "stroke": "#FF708D"
+      }
+    },
+    {
+      "id": "KDS241711-4.6.6.2_2(R) => KDS241711-4.6.2.2",
+      "source": "KDS241711-4.6.6.2_2(R)",
+      "target": "KDS241711-4.6.2.2",
+      "label": "범위 참조",
+      "type": "smoothstep",
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#FF708D"
+      },
+      "animated": true,
+      "style": {
+        "strokeWidth": 3,
+        "stroke": "#FF708D"
+      }
+    },
+    {
+      "id": "KDS241711-4.7.7.3_1(R) => KDS241711-4.7.7.2",
+      "source": "KDS241711-4.7.7.3_1(R)",
+      "target": "KDS241711-4.7.7.2",
+      "label": "범위 참조",
+      "type": "smoothstep",
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#FF708D"
+      },
+      "animated": true,
+      "style": {
+        "strokeWidth": 3,
+        "stroke": "#FF708D"
+      }
+    },
+    {
+      "id": "KDS241711-4.7.7.3_1(R) => KDS241711-4.3.3",
+      "source": "KDS241711-4.7.7.3_1(R)",
+      "target": "KDS241711-4.3.3",
+      "label": "범위 참조",
+      "type": "smoothstep",
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#FF708D"
+      },
+      "animated": true,
+      "style": {
+        "strokeWidth": 3,
+        "stroke": "#FF708D"
+      }
+    },
+    {
+      "id": "KDS241711-4.7.7.3_1(R) => KDS241711-4.7.7.2_2(R)",
+      "source": "KDS241711-4.7.7.3_1(R)",
+      "target": "KDS241711-4.7.7.2_2(R)",
+      "label": "범위 참조",
+      "type": "smoothstep",
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#FF708D"
+      },
+      "animated": true,
+      "style": {
+        "strokeWidth": 3,
+        "stroke": "#FF708D"
+      }
+    },
+    {
+      "id": "KDS241712-4.1.1.2_5(R) => KDS241712-4.1.1.2_4(R)",
+      "source": "KDS241712-4.1.1.2_5(R)",
+      "target": "KDS241712-4.1.1.2_4(R)",
+      "label": "범위 참조",
+      "type": "smoothstep",
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#FF708D"
+      },
+      "animated": true,
+      "style": {
+        "strokeWidth": 3,
+        "stroke": "#FF708D"
+      }
+    },
+    {
+      "id": "KDS241712-4.2.6_3(R) => KDS241712-4.6",
+      "source": "KDS241712-4.2.6_3(R)",
+      "target": "KDS241712-4.6",
+      "label": "범위 참조",
+      "type": "smoothstep",
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#FF708D"
+      },
+      "animated": true,
+      "style": {
+        "strokeWidth": 3,
+        "stroke": "#FF708D"
+      }
+    },
+    {
+      "id": "KDS249011-4.1.5.3 => KDS249011-4.1.5.4",
+      "source": "KDS249011-4.1.5.3",
+      "target": "KDS249011-4.1.5.4",
+      "label": "범위 참조",
+      "type": "smoothstep",
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#FF708D"
+      },
+      "animated": true,
+      "style": {
+        "strokeWidth": 3,
+        "stroke": "#FF708D"
+      }
+    },
+    {
+      "id": "KDS249011-4.1.5.3 => KDS241211",
+      "source": "KDS249011-4.1.5.3",
+      "target": "KDS241211",
+      "label": "외부 참조",
+      "type": "smoothstep",
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#FF708D"
+      },
+      "animated": true,
+      "style": {
+        "strokeWidth": 3,
+        "stroke": "#FF708D"
+      }
+    },
+    {
+      "id": "KDS249011-4.1.5.4_1(R) => KDS249011-4.1.5.3",
+      "source": "KDS249011-4.1.5.4_1(R)",
+      "target": "KDS249011-4.1.5.3",
+      "label": "범위 참조",
+      "type": "smoothstep",
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#FF708D"
+      },
+      "animated": true,
+      "style": {
+        "strokeWidth": 3,
+        "stroke": "#FF708D"
+      }
+    },
+    {
+      "id": "KDS249011-4.1.6.3 => KDS241211",
+      "source": "KDS249011-4.1.6.3",
+      "target": "KDS241211",
+      "label": "외부 참조",
+      "type": "smoothstep",
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#FF708D"
+      },
+      "animated": true,
+      "style": {
+        "strokeWidth": 3,
+        "stroke": "#FF708D"
+      }
+    },
+    {
+      "id": "KDS249011-4.1.6.3 => KDS241221",
+      "source": "KDS249011-4.1.6.3",
+      "target": "KDS241221",
+      "label": "외부 참조",
+      "type": "smoothstep",
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#FF708D"
+      },
+      "animated": true,
+      "style": {
+        "strokeWidth": 3,
+        "stroke": "#FF708D"
+      }
+    },
+    {
+      "id": "KDS249011-4.2.6.9_2(R) => KDS249011-4.2.5",
+      "source": "KDS249011-4.2.6.9_2(R)",
+      "target": "KDS249011-4.2.5",
+      "label": "범위 참조",
+      "type": "smoothstep",
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#FF708D"
+      },
+      "animated": true,
+      "style": {
+        "strokeWidth": 3,
+        "stroke": "#FF708D"
+      }
+    }
+  ]

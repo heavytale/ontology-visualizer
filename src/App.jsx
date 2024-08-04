@@ -77,10 +77,16 @@ const OverviewFlow = () => {
       onPaneClick={onPaneClick}
       onInit={onInit}
       fitView
-      fitViewOptions={{nodes: [{id: "0"}]}}
+      fitViewOptions={{nodes: [{id: "KDS143110"}]}}
       attributionPosition="top-right"
       nodeTypes={nodeTypes}
       onNodeContextMenu={onNodeContextMenu}
+
+      nodesDraggable={false}
+      nodesConnectable={false}
+      elementsSelectable={false}
+      selectNodesOnDrag={false}
+      minZoom={0.1}
     >
       <MiniMap style={minimapStyle} zoomable pannable />
       <Controls />
