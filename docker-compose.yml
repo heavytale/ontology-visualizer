@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  tomok-ontology-visualizer:
+    build:
+      context: tomok-ontology-visualizer
+    ports:
+      - "5173:5173"
+    volumes:
+      - ./edges_data.json:/app/src/edges_data.json
+      - ./nodes_data.json:/app/src/nodes_data.json
+    command: ["npx", "vite", "--host", "0.0.0.0"]
